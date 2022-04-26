@@ -1,0 +1,42 @@
+
+body{
+    padding: 4rem;
+}
+.caroussel{
+    width: 60%;
+    margin: auto;
+    background-color: aqua;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    
+}
+
+#container{
+    border: 1px solid;
+    width: 90%;
+    margin: auto;
+    height: 40vh;
+    background-color: aquamarine;
+}
+
+#photo{
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+    border-radius: 1rem;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    box-shadow: 2%;
+}
+
+/* #prec{
+    left: 0;
+    transform: rotate(0deg);
+} */

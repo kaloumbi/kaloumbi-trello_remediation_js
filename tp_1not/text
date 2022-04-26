@@ -1,0 +1,52 @@
+/* const my_notif = document.querySelectorAll('button');
+
+const my_contain = document.querySelector('.container');
+
+
+function notification(my_class, e){
+
+    const my_div1 = document.createElement('div');
+    const my_div = document.createElement('div');
+    const my_p = document.createElement('p');
+
+    
+    my_div1.classList('show_notif');
+    my_div.setAttribute('id', 'show_notif');
+
+    
+    my_p.innerHTML= e.target.innerHTML;
+
+    my_contain.appendChild(my_div1);
+    my_div1.appendChild(my_div);
+    my_div.appendChild(my_p);
+
+    my_div.classList= my_class;
+
+}
+
+
+
+for(var i=0; i< my_notif.length; i++){
+        
+    my_notif[i].addEventListener('click', function(e){
+        var new_class = e.target.classList[0];
+        // console.log(e.target);
+        notification(new_class,e);
+    })
+
+} 
+
+
+// for(var i=0; i< my_notif.length; i++){
+        
+//     my_notif[i].addEventListener('click', function(e){
+//         var new_class = e.target.classList[0];
+//         // console.log(e.target);
+//         notification(new_class,e);
+
+//         setTimeout(function(e){
+//             e.removeClass('new_class');
+//          }, 3000);
+//     })
+
+// } */
