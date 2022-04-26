@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../first_Project_JS/trello.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js" integrity="sha512-LGXaggshOkD/at6PFNcp2V2unf9LzFq6LE+sChH7ceMTDP0g2kn6Vxwgg7wkPP7AAtX+lmPqPdxB47A0Nz0cMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="trash_couch">
+        <div id="trash" >
+            <div class="bloc_btn">
+                <input id="restore" type="button" name="" class="restore" value="Restore">
+                <input type="button" name="" class="restore" value="RestoreAll">
+                <input type="button" name="" class="restore" value="DeleteAll">
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+    <div class="container">
+        <div id="btn_trash">
+            <input type="button" name="" id="display" value="+">
+            <img class="im_trash" src="../first_Project_JS/img/trash.png" alt="" srcset="">
+        </div>
+        <div class="btn">
+            <button id="add">+ Colonne</button>
+            <button id="note" >+ Note</button>
+        </div>
+
+        <div class="contain">
+            <!-- <div class="modal" id="modal1">
+                <span class="modal_title">Colonne</span>
+
+                <div class="div_taches">
+                    <div id="content"></div>
+                    <i class="fa-solid fa-trash-can" id="fa"></i>
+                    
+                </div>
+            </div> -->
+            
+            
+          
+        </div>
+
+
+
+
+
+
+        <div class="couche">
+            <div id="container2" class="container2">
+            
+                <div class="header">
+                    <th>NOUVELLE TACHE</th>
+                    <button id="btn_close">x</button>
+                    
+                </div>
+                <form action="" method="post" class="form">
+                    
+                    <div class="gen_modal">
+                        <p>Remplir les informations de la nouvelle toche</p>
+                    </div>
+        
+                    <div class="gen_modal">
+                        <label for="">toche</label>
+                        <textarea class="date" name="area_name" id="area" cols="30" rows="10"></textarea>
+                        <span class="error">Text Obligatoire</span>
+                    </div>
+        
+                    <div class="gen_modal">
+                        <label for="">Date</label>
+                        <input class="date" type="date" name="date_name" id="date">
+                        <span class="error">Date Obligatoire</span>
+                    </div>
+        
+                    <div class="gen_modal">
+                        <label for="">Heure de Début</label>
+                        <input class="date" type="time" name="hd_name" id="hd">
+                        <span class="error">Heure Debut Obligatoire</span>
+                    </div>
+        
+                    <div class="gen_modal">
+                        <label for="">Heure de Fin</label>
+                        <input class="date" type="time" name="hf_name" id="hf">
+                        <span class="error">Heure Fin Obligatoire</span>
+                    </div>
+        
+                    <div class="gen_modal">
+                        <input type="button" name="" id="btn_sub" value="Ajouter">
+                    </div>
+        
+                </form>
+        
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    
+    
+
+
+
+
+    <script src="../first_Project_JS/trello.js" defer></script>
+</body>
+</html>
